@@ -1,0 +1,113 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background-color: #333;
+  margin: 20px auto;
+}
+
+.review {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#person-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+#author {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#job {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+#info {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  opacity: 0.7;
+}
+
+.random-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.random-btn:hover {
+  background-color: #666;
+}
